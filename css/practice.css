@@ -1,0 +1,149 @@
+/*---------------
+fonts link
+---------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+/* --------------
+Glbbal Style
+---------------*/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: 'Roboto Slab', serif;
+}
+
+:root{
+	--primary-color: black;
+	--secondary-color:white;
+}
+
+/*---------------
+for dark mode switcher
+--------------*/
+
+.dark-theme{
+	--secondary-color: black;
+	--primary-color: white;
+}
+
+body{
+    background-color: var(--secondary-color);
+}
+
+
+
+/*----------------
+Main Style
+-----------------*/
+
+.container {
+    max-width: 1270px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+/*------------
+nav style
+-------------*/
+header {
+    margin-top: -16px;
+}
+.logo {
+    float: left;
+    width: 30%;
+}
+
+.menu {
+    float: right;
+    width: 70%;
+    overflow: hidden;
+}
+
+.logo h2 {
+    color: #fb5200;
+    background: yellow;
+    border-radius: 15px;
+    width: 126px;
+    padding: 8px;
+}
+
+.menu ul {
+    list-style: none;
+    width: 640px;
+    margin-left: 200px;
+}
+
+.menu ul li a:hover {
+    color: #fb5200;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 28px;
+    color: var(--primary-color);
+}
+
+.menu ul li {
+    float: left;
+    margin-right: 18px;
+}
+
+.menu ul li:last-child {
+    margin-right: 0;
+}
+
+img#icon {
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin-top: 0px;
+    border-radius: 50px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/*------------
+showcase
+------------*/
+
+.showcase {
+    margin-top: 200px;
+    overflow: hidden;
+    height: 80vh;
+}
+
+.leftSide {
+    float: left;
+    width: 635px;
+}
+
+.rightSide {
+    float: right;
+    width: 635px;
+}
+
+.leftSide p {font-weight: bolder;color: var(--primary-color);}
+
+.leftSide h1 {
+    font-size: 50px;
+    margin: 0 0 40px;
+    margin-top: 30px;
+    color: #fb5200;
+}
+
+.leftSide h3 {
+    font-size: 30px;
+    color: var(--primary-color);
+}
+
+.rightSide img {
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 200px;
+    border: 6px solid #f30b0b;
+}
